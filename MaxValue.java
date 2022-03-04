@@ -16,11 +16,14 @@ public class MaxValue
 
 		    return max; // returns Max value
 		  } // end Max method
+		  
 
 		  public static void main(String args[]) 
 		  {
-		    System.out.printf("MaxValue of %d, %d and %d is %d\n\n", 10, 20, 30, maximum(10, 20, 30));
-		   
+		    System.out.printf("MaxValue of float values  %f, %f and %f is %f\n\n", 2.5,3.2, 8.6, maximum(2.5,3.2 ,8.6));
+		    
 		  }
+		  
+		  
 		}
 
